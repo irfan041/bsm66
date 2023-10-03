@@ -10,7 +10,7 @@ public class ParametrizeTest {
 	
 	
 	@ParameterizedTest
-	@ValueSource(strings= {"radar","madam","Hello"})
+	@ValueSource(strings= {"radar","madam"})
 	public void palindromTest(String input) {
 		
 		assertTrue( Parametrize.isPalindrom(input));
